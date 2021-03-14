@@ -13,6 +13,12 @@
     justify-content:center;
     align-items: center;
 }
+.menu{
+        display: flex;
+        flex-flow: row  ;
+        justify-content:flex-start;
+        align-items: center;
+}
 #menu li{
     display: inline;
     padding: 20px;
@@ -21,7 +27,7 @@
 }
 #menu li a{
     text-decoration: none;
-    color:black
+    color:white
 }
 
 #menu li a:hover {
@@ -41,6 +47,16 @@
 .mb-50{
     margin-bottom: 50px;
 
+}
+
+.bc-blue{
+    background-color: rgb(101, 198, 255);
+}
+
+.b-0{
+    display: flex;
+    align-items:initial;
+    border :0%;
 }
 
 /* Estilos da pagina contato.html*/

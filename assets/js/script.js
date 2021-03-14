@@ -70,7 +70,7 @@ function enviar(){
     }else{
         alert('preencha as informações corretamente antes de enviar...')
     }
-}
+}   
 
 function mapaZoom(){
     mapa.style.width = '800px'
